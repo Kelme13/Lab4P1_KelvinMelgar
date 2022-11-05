@@ -156,7 +156,7 @@ public class Lab4P1_KelvinMelgar {
         //Recorre antes del ultimo caracter
         for (int i = 0; i < cont.length() - 1; i++) {
 
-            for (int j = 0; j <= contr.length() - cont.length(); j++) {
+            for (int j = 0; j <= contr.length()-1 ; j++) {
 
                 if (cont.charAt(i) == contr.charAt(j)) {
                     //Si la la siguiente letra esta en el contenido
